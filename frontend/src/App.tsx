@@ -10,7 +10,7 @@ import { TechStack } from './sections/TechStack'
 import { Projects } from './sections/Projects'
 import { Experience } from './sections/Experience'
 import { Contact } from './sections/Contact'
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
   const [message, setMessage] = useState('')
