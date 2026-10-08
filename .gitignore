@@ -1,0 +1,42 @@
+# Local environment values (applies throughout the repository).
+# Keep the public setup template tracked; never put secrets in it.
+.env*
+!.env.example
+*.env
+
+# Local deployment metadata and credential stores.
+.vercel/
+.aws/
+.azure/
+.ssh/
+.gnupg/
+.secrets/
+secrets/
+credentials/
+.npmrc
+.pypirc
+.netrc
+_netrc
+credentials.json
+credentials.*.json
+secrets.json
+secrets.*.json
+service-account*.json
+service_account*.json
+
+# Private keys, signing keystores, and password vaults.
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.kdbx
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+
+# Infrastructure state can contain credentials.
+*.tfstate
+*.tfstate.*

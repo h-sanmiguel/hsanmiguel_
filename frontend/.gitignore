@@ -24,6 +24,6 @@ dist-ssr
 *.sln
 *.sw?
 
-.vercel
+# Local environment values; public setup template stays tracked.
 .env*
 !.env.example
