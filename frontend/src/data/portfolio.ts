@@ -74,7 +74,7 @@ export const portfolio = {
       { date: 'Jun 2011 – Apr 2017', type: 'EDUCATION', title: 'Elementary Education', subtitle: 'Lagonoy Central School', description: 'Completed elementary education at Lagonoy Central School.', href: null, linkLabel: null },
     ],
   },
-  contact: { label: '05 / CONTACT', title: 'Let’s build something', secondLine: 'together.', description: 'Have a project in mind, an opportunity to share, or just want to connect? Feel free to reach out.', emailButton: 'Send an Email', note: 'Good things start with a conversation.' },
+  contact: { formId: 'xaeqealw' as string | null, label: '05 / CONTACT', title: 'Let’s build something', secondLine: 'together.', description: 'Have a project in mind, an opportunity to share, or just want to connect? Feel free to reach out.', emailButton: 'Send an Email', note: 'Good things start with a conversation.' },
   footer: { tagline: 'Building meaningful digital experiences.', credit: 'Built with React, Vite & HeroUI' },
   messages: { email: 'Email details are coming soon. Thanks for your interest in connecting!', github: 'The GitHub profile will be available here soon.', linkedin: 'The LinkedIn profile will be available here soon.', cv: 'The CV will be available for download here soon.', project: 'This project’s links will be available when it is ready to share.', cvError: 'The CV could not be downloaded. Please try again later.' },
 }
