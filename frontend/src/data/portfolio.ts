@@ -41,7 +41,7 @@ export const portfolio = {
     label: '02 / TECH STACK', title: 'Technologies I work with.', description: 'The tools in my toolkit. Always learning, always adding.',
     categories: [
       { title: 'Core Web', icon: 'code', items: ['HTML', 'CSS', 'JavaScript', 'TypeScript'] },
-      { title: 'Frontend & Tooling', icon: 'server', items: ['React', 'HeroUI', 'Vite', 'Tailwind CSS'] },
+      { title: 'Frontend & Tooling', icon: 'server', items: ['React', 'Next.js', 'HeroUI', 'Vite', 'Tailwind CSS'] },
       { title: 'Design & Collaboration', icon: 'design', items: ['Figma', 'Git', 'GitHub'] },
     ],
   },
